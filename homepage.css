@@ -12,18 +12,89 @@
     position: relative;
 }
 
+.blur{
+    backdrop-filter: blur(4px);
+    height: 100vh;
+	width: 100%;
+}
+
 .bar{
     width: 100%;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700px;
-    font-size: 20px;
+    font-size: 23px;
     line-height: 30px;
-    text-align: justify;
+    text-align: center;
+    position: fixed;
+}
+
+.navbar{
+    position: fixed;
 }
 
 .logo_nav{
     position: fixed;
     float: left;
     margin: 10px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    background-color: rgb(23,121,44);
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 20%;
+    text-align: center;
+}
+
+
+.welcome{
+    text-align: center;
+    position: relative;
+    top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.imglogowelcome{
+    display: flex;
+    justify-content: center;
+    margin-top: 140px;
+ 
     
+}
+
+
+
+.aboutus{
+    height: 400px;
+    background-color: rgb(195,22,22);
+}
+
+
+
+.gauche{
+    text-align: center;
+    width: 50%;
+    float: left;
+    top: 3px;
 }
