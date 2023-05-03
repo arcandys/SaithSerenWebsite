@@ -86,15 +86,144 @@ nav ul li a{
 
 
 .aboutus{
-    height: 400px;
+    height: 200px;
     background-color: rgb(195,22,22);
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+.aboutus_titre{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 27px;
+    margin-top: 6px;
+}
+
+.gauche{
+    text-align: center;
+    width: 33%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.milieu{
+    text-align: center;
+    width: 33%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
 }
 
 
 
-.gauche{
+.offres{
+    height: 350px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+.proposals{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 27px;
+    margin-top: 6px;
+}
+
+
+.images{
+    float: left;
+    width: 33%;
+    padding-left: 50px;
+    margin-top: 15px;
+}
+
+.row{
+    display: flex;
+}
+
+
+.test{
+    padding-left: 37%;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+}
+
+
+
+.membership{
+    height: 50px;
+    background-color: rgb(255,214,0);
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+.askmember{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 27px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 35%;
+}
+
+.boutMem{
+
+    border-radius: 20px;
+    background-color: rgb(206,173,0);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 22px;
+    border: 0;
+    cursor: pointer;
+    padding: 0.2em 1.4em;
+    float: left;
+    margin-top: 7px;
+}
+
+
+.lefttext{
     text-align: center;
     width: 50%;
     float: left;
-    top: 3px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.righttext{
+    text-align: center;
+    width: 40%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+#foot{
+    background-color: rgb(108,108,108);
 }
