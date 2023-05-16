@@ -9,7 +9,9 @@ In order to have this website functionning as we intend to, please follow the pr
   - Downlaod and install XAMPP
   - Head to "C:\xampp\htdocs" and create a new folder to put the documents of our website
   - Launch "Apache" & "MySQL" in XAMPP
-  - In the Explorer, and in the file created with the website data in it, launch the "homepage.html" file (a browser page should open)
+  - Go to localhost in a browser, phpmyAdmin, and create a new database called "saith seren" (respect the maj and space)
+  - Click on "import" and iport the "saith_seren.sql" file from the website files
+  - Access the website from localhost/SaithSerenWebsite/homepage.html
   - Navigate!
 
 
