@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-color: white;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.blur{
+    backdrop-filter: blur(4px);
+    height: 20vh;
+	width: 100%;
+}
+
+.bar{
+    width: 100%;
+    font-size: 23px;
+    line-height: 30px;
+    text-align: center;
+    position: fixed;
+}
+
+.navbar{
+    position: fixed;
+}
+
+.logo_nav{
+    position: fixed;
+    float: left;
+    margin: 10px;
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+}
+
+nav ul{
+    list-style: none;
+    background-color: rgb(23,121,44);
+    overflow: hidden;
+    padding: 0;
+    text-align: left;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    width: 20%;
+    text-align: center;
+}
+.calendar{
+    height: auto;
+    padding: 100px;
+    overflow: auto;
+}
+
+.calendar h1{
+    text-align: center;
+}
+
+.calendar_titre{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 27px;
+    margin-top: 6px;
+}
+  
+.calendar table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .calendar  th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .calendar thead th {
+    background-color: #f2f2f2;
+  }
+  
+  #calendar-body td {
+    height: 100px;
+  }
+  
+  #calendar-body td.current-day {
+    background-color: #e6e6e6;
+  }
+  
+  #calendar-body td.events {
+    background-color: #ffcc00;
+  }
+  
+  .membership{
+    height: 50px;
+    background-color: rgb(255,214,0);
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
+
+.askmember{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 27px;
+    float: left;
+    margin-top: 8px;
+    margin-left: 35%;
+}
+
+.boutMem{
+
+    border-radius: 20px;
+    background-color: rgb(206,173,0);
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: black;
+    font-size: 22px;
+    border: 0;
+    cursor: pointer;
+    padding: 0.2em 1.4em;
+    float: left;
+    margin-top: 7px;
+}
+
+.lefttext{
+    text-align: center;
+    width: 50%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.righttext{
+    text-align: center;
+    width: 40%;
+    float: left;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+.footer{
+    height: 130px;
+    background-color: #6C6C6C;
+    padding: 0;
+    margin: 0;
+    overflow: auto;
+}
