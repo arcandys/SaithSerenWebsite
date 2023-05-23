@@ -1,7 +1,9 @@
 # SaithSerenWebsite
 
 This project is about the redesign of the Saith Seren website, a location based in Wrexham, UK.
-This project was developped by Guillaume POUVREAU, Lucas ARNOULD and Quentin SARGER, ESIEA Students.
+This project was developped by Guillaume , Quentin and myself, ESIEA Students.
+It is not representing of any real world demands, only for the project to have a baseline.
+This project will not be updated again.
 
 # How to setup the website
 
